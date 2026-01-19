@@ -1,6 +1,6 @@
-# 🍽️ Zomato Restaurant Clustering
+# Zomato Restaurant Clustering
 
-## 📌 Project Overview
+## Project Overview
 
 Ratings alone do not fully represent restaurant performance. Two restaurants with the same rating can differ significantly in customer sentiment, pricing strategy, and review behavior.
 
@@ -8,7 +8,7 @@ This project applies **unsupervised machine learning (clustering)** combined wit
 
 ---
 
-## 🎯 Problem Statement
+## Problem Statement
 
 * Are ratings sufficient to evaluate restaurant performance?
 * Does higher cost guarantee better customer satisfaction?
@@ -18,7 +18,7 @@ Since no target variable exists, this problem is approached using **unsupervised
 
 ---
 
-## 🗂️ Datasets Used
+## Datasets Used
 
 ### 1️⃣ Restaurant Metadata
 
@@ -33,7 +33,7 @@ Since no target variable exists, this problem is approached using **unsupervised
 
 ---
 
-## 🔍 Exploratory Data Analysis (EDA)
+## Exploratory Data Analysis (EDA)
 
 Key analyses performed:
 
@@ -46,7 +46,7 @@ Key analyses performed:
 
 ---
 
-## 🧹 Data Cleaning & Feature Engineering
+##  Data Cleaning & Feature Engineering
 
 * Removed duplicate reviews
 * Handled missing values using median imputation
@@ -65,7 +65,7 @@ All features were aggregated at the **restaurant level**.
 
 ---
 
-## 📊 Hypothesis Testing
+## Hypothesis Testing
 
 * **Cost vs Cuisine Count** → Pearson Correlation (Significant)
 * **Low-cost vs High-cost Ratings** → Welch’s t-test (No significant improvement)
@@ -75,9 +75,9 @@ All features were aggregated at the **restaurant level**.
 
 ---
 
-## 🤖 Models Implemented
+##  Models Implemented
 
-* **K-Means Clustering** ✅ (Final Model)
+* **K-Means Clustering**  (Final Model)
 * Hierarchical Clustering
 * DBSCAN (Rejected due to noise)
 
@@ -91,7 +91,7 @@ K-Means was selected for its stability and business interpretability.
 
 ---
 
-## 🧠 Cluster Insights
+##  Cluster Insights
 
 The model groups restaurants into segments such as:
 
@@ -102,7 +102,7 @@ The model groups restaurants into segments such as:
 
 ---
 
-## 💼 Business Impact
+##  Business Impact
 
 * Helps customers choose better restaurants
 * Supports recommendation systems
@@ -114,7 +114,7 @@ The model groups restaurants into segments such as:
 
 ---
 
-## ⚠️ Limitations
+##  Limitations
 
 * Static historical data
 * City-level effects not fully modeled
@@ -122,7 +122,7 @@ The model groups restaurants into segments such as:
 
 ---
 
-## 🚀 Future Enhancements
+##  Future Enhancements
 
 * Add location-based features
 * Integrate operational metrics
@@ -131,7 +131,7 @@ The model groups restaurants into segments such as:
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 * Python
 * Pandas, NumPy
